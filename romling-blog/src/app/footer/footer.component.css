@@ -1,7 +1,13 @@
 .container-fluid {
-  padding: 1rem;
+  padding: 5px;
   background-color: #252b33;
   color: white;
   text-align: left;
   border: 1px solid white;
+}
+img {
+  position: absolute;
+  align-content: center;
+  bottom: 0;
+  right: 0;
 }
