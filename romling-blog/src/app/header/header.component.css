@@ -11,3 +11,14 @@ li a:hover {
     background-color: white;
     color: black;
 }
+li a:active {
+    color: blue;
+}
+li a[tabindex]:focus {
+    color:white;
+    outline: none;
+}
+.caret {
+  border-width: 5px;
+  border-bottom-width: 0;
+}
