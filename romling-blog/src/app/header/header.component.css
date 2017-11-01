@@ -22,3 +22,9 @@ li a[tabindex]:focus {
   border-width: 5px;
   border-bottom-width: 0;
 }
+.caret:hover {
+  color: black;
+}
+.navbar-brand:hover {
+  color: white;
+}
