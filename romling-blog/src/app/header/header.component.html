@@ -1,22 +1,24 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a href="#" class="navbar-brand">Romling BLOG</a>
     </div>
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li><a href="#" tabindex="1" (click)="onSelect('home')">Home</a></li>
-        <li><a href="#" tabindex="1" (click)="onSelect('about')">About</a></li>
-      </ul>
+    <div class="collapse navbar-collapse" id="browser">
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" tabindex="1" class="dropdown-toggle" role="button"><span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Save Data</a></li>
-            <li><a href="#">Fetch Data</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
           </ul>
         </li>
       </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" tabindex="1" (click)="onSelect('home')">Home</a></li>
+        <li><a href="#" tabindex="1" (click)="onSelect('about')">About</a></li>
+      </ul>
+      <nav>
+      </nav>
     </div>
   </div>
 </nav>
