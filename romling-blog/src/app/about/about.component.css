@@ -1,4 +1,9 @@
-div {
+div#about {
   background-color: darkgrey;
   border-radius: 10px;
+  position: relative;
+}
+div#space {
+  position: relative;
+  min-height: calc(75vh);
 }

@@ -1,5 +1,6 @@
 .navbar-default {
     background-color: #252b33;
+    max-height: 50px;
 }
 .navbar-brand {
   color: white;
@@ -11,11 +12,9 @@ li a:hover {
     background-color: white;
     color: black;
 }
-li a:active {
-    color: blue;
-}
-li a[tabindex]:focus {
-    color:white;
+li a[tabindex]:active {
+    background-color: #101010;
+    color: white;
     outline: none;
 }
 .caret {
@@ -27,4 +26,15 @@ li a[tabindex]:focus {
 }
 .navbar-brand:hover {
   color: white;
+}
+ul#mobile {
+  display: none;
+  position: relative;
+}
+@media (max-width: 790px) {
+   ul#mobile { display: inline-block; }
+}
+.navbar-nav>li, .navbar-header{
+  float: left;
+  left: 25px;
 }

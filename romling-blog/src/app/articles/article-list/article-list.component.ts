@@ -12,6 +12,10 @@ export class ArticleListComponent implements OnInit {
   articles: Article[] = [
     new Article('Article 1', 'text1'),
     new Article('Article 2', 'text2'),
+    new Article('Article 3', 'text3'),
+    new Article('Article 4', 'text4'),
+
+
   ];
 
   constructor() { }
